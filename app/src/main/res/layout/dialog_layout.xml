@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/border_round_bg"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Operations"
+        android:textSize="@dimen/textsize_30sp"
+        android:background="@color/gray"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/dimin_20"
+        android:orientation="vertical">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edit"
+            android:layout_margin="@dimen/dimin_10"
+            android:id="@+id/rb_edit"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:layout_margin="@dimen/dimin_10"
+            android:id="@+id/rb_delete"/>
+    </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimin_10"
+            android:textSize="23sp"
+            android:id="@+id/btn_ok"
+            android:text="@string/Rd_btn_ok"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"
+            />
+
+</LinearLayout>

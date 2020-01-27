@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MVVMProject</string>
+    <string name="add">add</string>
+    <string name="str_add_user">Add user</string>
+    <string name="rd_delete">Delete</string>
+    <string name="rd_edit">Edit</string>
+    <string name="Rd_btn_ok">Ok</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="no_record">No record found</string>
+    <string name="txt_id">Id </string>
+    <string name="txt_fname">First Name </string>
+    <string name="txt_lname">Last name </string>
+    <string name="txt_email">Email Id</string>
+</resources>
